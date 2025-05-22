@@ -1,0 +1,11 @@
+# Defaults for lerobot control script
+# These parameters correspond to the command-line arguments provided.
+
+robot:
+  type: so100
+  cameras: {} # Represents an empty dictionary/mapping
+
+control:
+  type: calibrate
+  arms:
+    - "main_follower" # A list with one string element
